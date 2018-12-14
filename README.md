@@ -6,10 +6,10 @@ An implementation of P5.js' PVector in Python3.
 ## vector2D
 
 ### Paramters
-####x
+#### x
 The x component of the vector
 
-####y
+#### y
 The y component of the vector
 
 ### Methods
@@ -86,17 +86,20 @@ Linear interpolate the vector to another vector.
 #### array()
 Return an array 
 
+#### intArray()
+Returns an array of the rounded x, y values
+
 
 ## vector3D
 
 ### Paramters
-####x
+#### x
 The x component of the vector
 
-####y
+#### y
 The y component of the vector
 
-####z
+#### z
 The z component of the vector
 
 ### Methods
@@ -166,3 +169,6 @@ Linear interpolate the vector to another vector.
 
 #### array()
 Return an array 
+
+#### intArray()
+Returns an array of the rounded x, y and z values

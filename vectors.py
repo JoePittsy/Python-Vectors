@@ -305,6 +305,14 @@ class vector2D(object):
         """
         return [self.x, self.y]
 
+    def intArray(self):
+        """ Returns an array of the rounded x, y values
+        >>> v = vector2D(3.6, 2.2)
+        >>> v.intArray()
+        [4, 2]
+        """
+        return [round(self.x), round(self.y)]
+
 
     def __eq__(self, value):
         try:
@@ -641,6 +649,13 @@ class vector3D(object):
         """
         return [self.x, self.y, self.z]
 
+    def intArray(self):
+        """ Returns an array of the rounded x, y and z values
+        >>> v = vector3D(3.6, 2.2, 9.7)
+        >>> v.intArray()
+        [4, 2, 10]
+        """
+        return [round(self.x), round(self.y), round(self.z)]
 
     def __eq__(self, value):
         try:
