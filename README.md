@@ -168,10 +168,8 @@ Linear interpolate the vector to a coord triplet.
 Linear interpolate the vector to another vector.
 
 #### array()
-Return an array 
-<<<<<<< HEAD
+Return an array.
 
 #### intArray()
-Returns an array of the rounded x, y and z values
-=======
->>>>>>> 9ca4299b90422111d4de72ae1ab1abee5cf4435e
+Returns an array of the rounded x, y and z values.
+
